@@ -1,0 +1,72 @@
+{ 
+"status": "success", 
+"menu": [
+ {
+ "id": 1,
+ "name": "Hamburguesa Clásica", 
+"description": "Hamburguesa con carne, queso, lechuga y tomate", 
+"price": 5.99 
+}, 
+{
+ "id": 2, 
+"name": "Papas fritas",
+ "description": "Papas fritas crujientes", 
+"price": 2.49 
+}, 
+{ 
+"id": 3, 
+"name": "Bebida Coca-Cola", 
+"description": "Bebida refrescante", 
+"price": 1.49 
+} 
+] 
+}
+
+
+
+{ 
+"status": "success",
+ "product": { 
+"id": 1, 
+"name": "Hamburguesa Clásica", 
+"description": "Hamburguesa con carne, queso, lechuga y tomate", 
+"price": 5.99,
+ "ingredients": ["Carne", "Queso", "Lechuga", "Tomate"],
+ "calories": 350
+ }
+ }
+{ 
+"user_id": "12345", 
+"items": [
+ {"id": 1, "quantity": 1}, 
+{"id": 2, "quantity": 2} 
+], 
+"total_price": 14.47 
+}
+
+{
+  "status": "success",
+  "order_id": "abc123",
+  "message": "Tu pedido ha sido realizado con éxito."
+}
+
+{
+  "status": "success",
+  "order": {
+    "id": "abc123",
+    "status": "En preparación",
+    "estimated_time": "15 minutos"
+  }
+}
+
+{
+  "status": "success",
+  "offers": [
+    {
+      "id": 1,
+      "title": "Combo Hamburguesa + Papas",
+      "description": "Combo especial de hamburguesa y papas por solo 7.99",
+      "valid_until": "2024-12-31"
+    }
+  ]
+}
